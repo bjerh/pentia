@@ -1,0 +1,54 @@
+{
+    "formData": {
+        "sections": [
+            {
+                "title": "Tilmelding",
+                "description": "Alle felter med * skal udfyldes",
+                "elements": [
+                    {
+                        "type": "input",
+                        "required": true,
+                        "placeholder": "Navn *",
+                        "value":""
+                    },
+                    {
+                        "type": "input",
+                        "required": true,
+                        "placeholder": "E-mail *",
+                        "value":""
+                    }
+                ]
+            },
+            {
+                "title":"Hvad tid ses vi?",
+                "description":"",
+                "elements": [
+                    {
+                        "type": "radio",
+                        "group":"1",
+                        "label": "14.00 &mdash; 17.30, kunder og venner af huset",
+                        "checked": false
+                    },
+                    {
+                        "type": "radio",
+                        "group":"1",
+                        "label": "18.00 &mdash; 21.00, familie og venner",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "title":"Hvor mange gæster tager du med?",
+                "description":"",
+                "elements":[
+                    {
+                        "type": "number",
+                        "required": true,
+                        "placeholder": "",
+                        "value":"0"
+                    }
+                ]
+            }
+        ]
+    }
+}

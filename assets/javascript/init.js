@@ -1,0 +1,3 @@
+"use strict";
+
+FormWidget.init();
